@@ -1,1 +1,1 @@
-Esse projeto é uma página de cinema desenvolvida para o segundo lab de tec web.
+Esse projeto é uma página de cinema desenvolvida para o terceiro lab de tec web.
