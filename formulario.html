@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de cadastro</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <h1>Formulário para cadastro de informações do cliente</h1>
+    <form action="home.html">
+        <div>
+            <label for="progresso">Progresso: </label>
+            <progress value="70" max="100" id="progresso"></progress>
+        </div>
+        <br>
+        <div>
+            <label for="Nascimento">Data de Nascimento</label>
+            <input type="date" name="DataDeNascimento" id="Nascimento">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="Email" id="email">
+        </div>
+        <br>
+        <div>
+            <label for="telefone">Telefone</label>
+            <input type="email" name="telefone" id="telefone">
+        </div>
+        <br>
+        <div>
+            <label for="adesão">Mês de adesão</label>
+            <input type="month" name="adesão" id="adesão">
+        </div>
+        <br>
+        <div>
+            <label for="numeroDeFilmes">Número de filmes que o cliente pretende ver semanalmente(1 a 7)</label>
+            <input type="number" name="numeroDeFilmes" id="numeroDeFilmes" min="1" max="7">
+        </div>
+        <br>
+        <div>
+            <label for="corDePreferencia">Cor de Preferência para a visualização da área</label>
+            <input type="color" name="corDePreferencia" id="corDePreferencia">
+        </div>
+        <br>
+        <div>
+            <label for="endereçoDaPágina">Endereço pessoal da página do cliente</label>
+            <input type="url" name="endereçoDaPágina" id="endereçoDaPágina">
+        </div>
+        <br>
+        <div>
+            <label for="dataEhoraDoCupom">Data e hora que o cliente prefere utilizar o cupom de desconto da primeira compra</label>
+            <input type="datetime-local" name="dataEhoraDoCupom" id="dataEhoraDoCupom">
+        </div>
+        <br>
+        <div>
+            <label for="gênero">Preferência do gênero de filmes</label>
+            <input type="range" name="gênero" id="gênero" min="1" max="7">
+        </div>
+        <br>
+        <button>cadastre-se</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,1 @@
+Esse projeto é uma página de cinema desenvolvida para o segundo lab de tec web.

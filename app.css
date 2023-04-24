@@ -1,0 +1,183 @@
+body {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.87);
+    color: #f5c518;
+}
+
+h1 {
+    color: #f5c518;
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+#infos {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 300;
+    margin: 0px;
+    display: block;
+}
+
+h2 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 300;
+    margin: 10px 0 0 0;
+    text-transform: none;
+}
+
+ul,h3 {
+    margin: 4px;
+    display: flex;
+    list-style: none;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+li {
+    margin-right: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #1d3557;
+    width: 100%;
+    height: 60px;
+    margin-bottom: 5px;
+    align-items: center;
+    border-radius: 15px;
+}
+
+hr {
+    background-color: #e5e5e5;
+    color: #e5e5e5;
+    margin: 0;
+    height: 5px;
+    border-radius: 10px;
+    border: none;
+}
+
+#poster {
+    margin: 0px;
+}
+
+#poster img {
+    margin-right: 20px;
+}
+
+#cidade {
+    border-radius: 15px;
+}
+
+#cinema {
+    border-radius: 15px;
+}
+
+#programação {
+    width: 120px;
+    height: 40px;
+    background-color: #f5c518;
+    border-radius: 10%;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+button{
+    width: 120px;
+    height: 40px;
+    background-color: #f5c518;
+    border-radius: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    margin-left: 10px;
+    appearance: none;
+    cursor: pointer;
+}
+
+select {
+    margin: 0 20px;
+    width: 200px;
+    height: 40px;
+    padding: 0 25px;
+    appearance: none;
+}
+
+
+#filmesEmCartaz {
+    display: flex;
+    justify-content: center;
+    color: #f5c518;
+}
+
+
+#filmes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 50px;
+    text-align: center;
+}
+
+#filmes article img:hover {
+    cursor: pointer;
+    height: 450px;
+    width: 350px;
+    transition: 1.5s;
+}
+
+
+.nomeDoFilme {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+h4 {
+    font-size: 1.3em;
+    letter-spacing: 2px;
+    color: #f5c518;
+}
+
+ol {
+    display: flex;
+    flex-direction: row;
+    margin-top: -30px;
+    justify-content: flex-start;
+    margin-bottom: -15px;
+}
+
+ol li {
+    margin-right: 50px;
+}
+
+#genero{
+    display: flex;
+    color: #fff;
+}
+#genero p{
+    margin: 0px 10px;
+    background-color: #1d3557;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+p{
+   color: #fff; 
+}
+meter{
+    margin: 5px 0;
+}
+label{
+    font-size: 18px;
+}
+footer dialog{
+    text-align: start;
+    background-color: #1d3557;
+}
+
